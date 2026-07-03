@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WOZ × B&A — Merch Collaboration</title>
+<link rel="stylesheet" href="styles.css?v=10">
+</head>
+<body>
+
+<div class="disclaimer-banner" role="note">
+  <p><strong>Aviso:</strong> las prendas de esta página son <strong>bocetos y mockups de diseño</strong> — una propuesta visual para la colaboración entre <strong>WOZ</strong> y <strong>bits&amp;atoms</strong>, no productos finales a la venta.</p>
+</div>
+
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="#top" class="logo-lockup">
+      <span class="logo-woz">WOZ</span>
+      <span class="logo-x">×</span>
+      <span class="logo-ba">
+        <svg class="tri-mark" viewBox="0 0 40 40" aria-hidden="true">
+          <polygon points="0,0 13.33,0 13.33,13.33"/>
+          <polygon points="13.33,0 26.67,0 26.67,13.33"/>
+          <polygon points="26.67,0 40,0 40,13.33"/>
+          <polygon points="0,13.33 13.33,13.33 13.33,26.67"/>
+          <polygon points="13.33,13.33 26.67,13.33 26.67,26.67"/>
+          <polygon points="26.67,13.33 40,13.33 40,26.67"/>
+          <polygon points="0,26.67 13.33,26.67 13.33,40"/>
+          <polygon points="13.33,26.67 26.67,26.67 26.67,40"/>
+          <polygon points="26.67,26.67 40,26.67 40,40"/>
+        </svg>
+        B&amp;A
+      </span>
+    </a>
+    <nav class="main-nav">
+      <a href="#coleccion">Colección</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" aria-label="Buscar">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+      <button class="icon-btn" aria-label="Cuenta">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/></svg>
+      </button>
+      <a class="cta-btn" href="lookbook.html">Ver Lookbook</a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero-simple">
+    <p class="hero-eyebrow">Propuesta de Colaboración</p>
+    <h1 class="hero-title">Bocetos de la propuesta<br>WOZ × Bits&amp;Atoms.</h1>
+  </section>
+
+  <section class="collection" id="coleccion">
+    <div class="section-head">
+      <h2>La Colección</h2>
+      <p>Pasa el cursor sobre cada prenda para verla más de cerca. Las que tienen parte trasera fotografiada giran 360°.</p>
+    </div>
+
+    <div class="filters" id="filters"></div>
+
+    <div class="product-grid" id="productGrid"></div>
+  </section>
+
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-logo">WOZ <span>×</span> B&amp;A</div>
+    <p>Merch Collaboration — Colección cápsula generada a partir del lookbook oficial.</p>
+    <p class="footer-fine">Prototipo de plataforma · Todas las prendas son mockups de diseño.</p>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose">✕</button>
+  <div class="lightbox-content" id="lightboxContent"></div>
+</div>
+
+<script src="data.js?v=10"></script>
+<script src="script.js?v=10"></script>
+</body>
+</html>
